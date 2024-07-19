@@ -114,3 +114,126 @@ table {
 .menu-button:hover {
     background-color: white;
 }
+
+/* quick access */
+.quick-container {
+    width: 100%;
+}
+
+.qInfo {
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 1.4rem;
+    background-color: #800080;
+    height: 80px;
+    width: 100%;
+}
+
+/* MENU 1 */
+
+.qRelax {
+    text-decoration: none;
+    display: block;
+}
+
+.qRelax:hover .mThumb1 {
+    filter: brightness(70%);
+}
+
+.quickHead1 {
+    height: 100px;
+    width: 100%;
+    background-color: #800080;
+    display: flex;
+}
+
+.quickmenu1 img {
+    transform: scale(50%);
+}
+
+.quickmenu1 h1 {
+    color: white;
+    line-height: 100px;
+    font-size: 2.5rem;
+}
+
+.mThumb1 {
+    background-image: url(/img/menuThumb\(relax\).webp);
+    background-position: 0px -100px;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+/* MENU 2 */
+
+.qRejuve {
+    text-decoration: none;
+    display: block;
+}
+
+.qRejuve:hover .mThumb2 {
+    filter: brightness(70%);
+}
+
+.quickHead2 {
+    height: 100px;
+    width: 100%;
+    background-color: #560056;
+    display: flex;
+}
+
+.quickmenu2 img {
+    transform: scale(50%);
+}
+
+.quickmenu2 h1 {
+    color: white;
+    line-height: 100px;
+    font-size: 2.5rem;
+}
+
+.mThumb2 {
+    background-image: url(/img/menuThumb\(rejuvenate\).webp);
+    background-position: 0px -230px;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+/* MENU 3 */
+.qPamper {
+    text-decoration: none;
+    display: block;
+}
+
+.qPamper:hover .mThumb3 {
+    filter: brightness(70%);
+}
+
+.quickHead3 {
+    height: 100px;
+    width: 100%;
+    background-color: #800080;
+    display: flex;
+}
+
+.quickmenu3 img {
+    transform: scale(50%);
+}
+
+.quickmenu3 h1 {
+    color: white;
+    line-height: 100px;
+    font-size: 2.5rem;
+}
+
+.mThumb3 {
+    background-image: url(/img/menuThumb\(pampering\).webp);
+    background-position: 0px -200px;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
