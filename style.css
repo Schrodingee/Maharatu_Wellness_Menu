@@ -46,3 +46,15 @@ table {
     border-spacing: 0;
 }       
 
+/* Header */
+
+.header {
+    background-color: #800080;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    transform: scale(145%);
+}
