@@ -58,3 +58,59 @@ table {
 .header img {
     transform: scale(145%);
 }
+
+/* hero */
+
+.hero {
+    height: 635px;
+}
+
+.herothumb {
+    background-image: url(/img/main.webp);
+    background-size: cover;
+    background-position: 0%;
+    filter: brightness(60%);
+    height: 635px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}
+
+.title h1 {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    top: 560px;
+    left: 50px;
+}
+
+.menu-button {
+    border: 5px solid white;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    top: 530px;
+    right: 50px;
+    text-align: center;
+}
+
+.menu-button a {
+    display: block;
+    line-height: 90px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu-button:hover p {
+    color: black;
+}
+
+.menu-button:hover {
+    background-color: white;
+}
