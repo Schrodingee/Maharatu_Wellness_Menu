@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    height: 10000px;
 }
 ol, ul {
     list-style: none;
@@ -118,10 +119,18 @@ table {
 /* quick access */
 .quick-container {
     width: 100%;
+    height: 900px;
+    background-color: #800080;
+}
+
+.wave {
+    position: absolute;
+    top: 1495px;
 }
 
 .qInfo {
     display: block;
+    position: absolute;
     color: white;
     text-align: center;
     line-height: 80px;
@@ -136,6 +145,10 @@ table {
 .qRelax {
     text-decoration: none;
     display: block;
+    transform: scale(60%);
+    position: absolute;
+    left: -150px;
+    width: 1000px;
 }
 
 .qRelax:hover .mThumb1 {
@@ -145,7 +158,7 @@ table {
 .quickHead1 {
     height: 100px;
     width: 100%;
-    background-color: #800080;
+    background-color: #560056;
     display: flex;
 }
 
@@ -165,6 +178,7 @@ table {
     background-size: cover;
     height: 450px;
     width: 100%;
+    border-radius: 0 0 20px 20px ;
 }
 
 /* MENU 2 */
@@ -172,6 +186,11 @@ table {
 .qRejuve {
     text-decoration: none;
     display: block;
+    transform: scale(60%);
+    position: absolute;
+    width: 1000px;
+    top: 900px;
+    right: -170px;
 }
 
 .qRejuve:hover .mThumb2 {
@@ -197,7 +216,7 @@ table {
 
 .mThumb2 {
     background-image: url(/img/menuThumb\(rejuvenate\).webp);
-    background-position: 0px -230px;
+    background-position: 0px -210px;
     background-size: cover;
     height: 450px;
     width: 100%;
@@ -207,6 +226,11 @@ table {
 .qPamper {
     text-decoration: none;
     display: block;
+    transform: scale(60%);
+    position: absolute;
+    width: 1000px;
+    top: 1110px;
+    left: -150px;
 }
 
 .qPamper:hover .mThumb3 {
@@ -216,7 +240,7 @@ table {
 .quickHead3 {
     height: 100px;
     width: 100%;
-    background-color: #800080;
+    background-color: #560056;
     display: flex;
 }
 
