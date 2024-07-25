@@ -266,3 +266,66 @@ table {
     width: 100%;
     border-radius: 0 0 20px 20px ;
 }
+
+/* menu */
+/* head */
+.menu-head {
+    height: 400px;
+}
+
+.menu-head h1 {
+    position: absolute;
+    left: 700px;
+    top: 1880px;
+    font-size: 4rem;
+}
+
+.menu-head h2 {
+    position: absolute;
+    left: 700px;
+    top: 1950px;
+    font-size: 3rem;
+}
+
+.menu-head img {
+    position: absolute;
+    transform: scale(15%);
+    top: 900px;
+    left: -640px;
+}
+
+/* menu 1 */
+
+.menuRelax {
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+    /* background-color: #560056; */
+}
+
+.menuRelax .containRelax{
+    height:800px;
+    width: 80%;
+    margin: auto;
+    /* background-color: rgb(166, 166, 166); */
+}
+
+.containRelax #titleR {
+    text-align: center;
+    font-size: 3rem;
+    color: #800080;
+} 
+
+.containRelax h1 {
+    font-size: 2rem;
+    color: #560056;
+    font-weight: bold;
+}
+
+.containRelax h2 {
+    font-size: 1.5rem;
+}
+
+.containRelax p {
+    font-size: 1.2rem;
+}
