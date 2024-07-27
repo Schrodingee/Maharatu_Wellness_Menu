@@ -353,11 +353,10 @@ table {
 }
 
 .menuReju .containReju{
-    height:800px;
+    height:580px;
     width: 80%;
     margin: auto;
     padding-top: 100px;
-    margin-bottom: -200px;
 }
 
 .containReju #titleRj {
@@ -407,6 +406,7 @@ table {
     height: 500px;
     width: 80%;
     margin: auto;
+    padding-top: 100px;
 }
 
 .containPam #titleP {
