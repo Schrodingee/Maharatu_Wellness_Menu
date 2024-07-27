@@ -306,7 +306,6 @@ table {
     height:800px;
     width: 80%;
     margin: auto;
-    /* background-color: rgb(166, 166, 166); */
 }
 
 .containRelax #titleR {
@@ -338,6 +337,58 @@ table {
 }
 
 .relaxGallery #r1, #r2, #r3 {
+    margin: 0 10px;
+    height: 100px;
+    width: 100px;
+    background-color: #560056;
+}
+
+/* Menu 2 */
+
+.menuReju {
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(233, 233, 233);
+}
+
+.menuReju .containReju{
+    height:800px;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: -200px;
+}
+
+.containReju #titleRj {
+    text-align: center;
+    font-size: 3rem;
+    color: #800080;
+} 
+
+.containReju h1 {
+    font-size: 2rem;
+    color: #560056;
+    font-weight: bold;
+}
+
+.containReju h2 {
+    font-size: 1.5rem;
+}
+
+.containReju p {
+    font-size: 1.2rem;
+}
+
+.rejuGallery {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    background-color: #c58dc5;
+}
+
+.rejuGallery #rj1, #rj2, #rj3 {
     margin: 0 10px;
     height: 100px;
     width: 100px;
