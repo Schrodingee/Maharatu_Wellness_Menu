@@ -300,7 +300,6 @@ table {
     height: 1000px;
     width: 100%;
     margin: auto;
-    /* background-color: #560056; */
 }
 
 .menuRelax .containRelax{
@@ -328,4 +327,19 @@ table {
 
 .containRelax p {
     font-size: 1.2rem;
+}
+
+.relaxGallery {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    background-color: #c58dc5;
+}
+
+.relaxGallery #r1, #r2, #r3 {
+    margin: 0 10px;
+    height: 100px;
+    width: 100px;
+    background-color: #560056;
 }
