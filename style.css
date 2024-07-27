@@ -394,3 +394,53 @@ table {
     width: 100px;
     background-color: #560056;
 }
+
+/* menu 3 */
+
+.menuPam {
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.menuPam .containPam{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    background-color: #560056;
+}
+
+.containPam #titleP {
+    text-align: center;
+    font-size: 3rem;
+    color: #800080;
+} 
+
+.containPam h1 {
+    font-size: 2rem;
+    color: #560056;
+    font-weight: bold;
+}
+
+.containPam h2 {
+    font-size: 1.5rem;
+}
+
+.containPam p {
+    font-size: 1.2rem;
+}
+
+.PamGallery {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    background-color: #c58dc5;
+}
+
+.PamGallery #p1, #p2, #p3 {
+    margin: 0 10px;
+    height: 100px;
+    width: 100px;
+    background-color: #560056;
+}
