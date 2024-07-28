@@ -77,16 +77,17 @@ table {
     color: white;
     font-size: 4rem;
     position: absolute;
-    top: 500px;
+    top: 480px;
     left: 50px;
 }
 
 .title h1 {
     color: white;
-    font-size: 5rem;
+    font-size:7rem;
     position: absolute;
-    top: 560px;
+    top: 530px;
     left: 50px;
+    font-family: 'Mistral';
 }
 
 .menu-button {
@@ -276,13 +277,14 @@ table {
     position: absolute;
     left: 700px;
     top: 1880px;
-    font-size: 4rem;
+    font-size: 7rem;
+    font-family: 'Mistral';
 }
 
 .menu-head h2 {
     position: absolute;
     left: 700px;
-    top: 1950px;
+    top: 1980px;
     font-size: 3rem;
 }
 
@@ -458,3 +460,12 @@ table {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+/* fonts */
+
+@font-face {
+    font-family: 'Mistral';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mistral'), url('MISTRAL.woff') format('woff');
+    }
