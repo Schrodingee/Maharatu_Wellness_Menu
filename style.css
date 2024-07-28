@@ -329,7 +329,8 @@ table {
 }
 
 .containRelax h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Mortega Regular';
 }
 
 .containRelax p {
@@ -381,7 +382,8 @@ table {
 }
 
 .containReju h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Mortega Regular';
 }
 
 .containReju p {
@@ -432,7 +434,8 @@ table {
 }
 
 .containPam h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Mortega Regular';
 }
 
 .containPam p {
@@ -490,4 +493,11 @@ table {
     font-style: normal;
     font-weight: normal;
     src: local('OMEGA CT Regular'), url('OmegaCTRegular.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Mortega Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mortega Regular'), url('Mortega.woff') format('woff');
     }
