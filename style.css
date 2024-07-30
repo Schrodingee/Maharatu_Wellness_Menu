@@ -507,7 +507,7 @@ table {
 /* menu 3 */
 
 .menuPam {
-    height: 1000px;
+    height: 1200px;
     width: 100%;
     margin: auto;
 }
@@ -543,19 +543,67 @@ table {
 
 .PamGallery {
     display: flex;
-    width: 80%;
-    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    height: 530px;
     margin: auto;
-    background-color: #c58dc5;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.PamGallery #p1, #p2, #p3 {
-    margin: 0 10px;
-    height: 100px;
-    width: 100px;
+.PamGallery #pamper1, #pamper2, #pamper3, #pamper4, #pamper5{
+    margin: 2px;
+    height: 250px;
+    width: 300px;
     background-color: #560056;
+    background-size: cover;
 }
 
+.PamGallery #pamper1 {
+    background-image: url(/img/pamper1.webp);
+    background-position: -20px;
+}
+
+.PamGallery #pamper1:hover {
+    filter: brightness(70%);
+}
+
+.PamGallery #pamper2 {
+    background-image: url(/img/pamper2.webp);
+    background-position: -40px;
+}
+
+.PamGallery #pamper2:hover {
+    filter: brightness(70%);
+}
+
+.PamGallery #pamper3 {
+    background-image: url(/img/pamper3.webp);
+    background-position: -50px;
+}
+
+.PamGallery #pamper3:hover {
+    filter: brightness(70%);
+}
+
+.PamGallery #pamper4 {
+    background-image: url(/img/pamper4.webp);
+    background-position: -50px 0px;
+}
+
+.PamGallery #pamper4:hover {
+    filter: brightness(70%);
+}
+
+.PamGallery #pamper5 {
+    background-image: url(/img/pamper5.webp);
+    background-position: -40px;
+}
+
+.PamGallery #pamper5:hover {
+    filter: brightness(70%);
+}
 /* Footer */
 
 .footer {
