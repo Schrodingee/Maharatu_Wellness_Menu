@@ -305,7 +305,7 @@ table {
 /* menu 1 */
 
 .menuRelax {
-    height: 1200px;
+    height: 1670px;
     width: 100%;
     margin: auto;
 }
@@ -340,17 +340,66 @@ table {
 
 .relaxGallery {
     display: flex;
-    width: 80%;
-    height: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    height: 530px;
     margin: auto;
-    background-color: #c58dc5;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.relaxGallery #r1, #r2, #r3 {
-    margin: 0 10px;
-    height: 100px;
-    width: 100px;
+.relaxGallery #r1, #r2, #r3, #r4, #r5{
+    margin: 2px;
+    height: 250px;
+    width: 300px;
     background-color: #560056;
+    background-size: cover;
+}
+
+.relaxGallery #r1 {
+    background-image: url(/img/relax1.webp);
+    background-position: -150px;
+}
+
+.relaxGallery #r1:hover {
+    filter: brightness(70%);
+}
+
+.relaxGallery #r2 {
+    background-image: url(/img/relax2.webp);
+    background-position: -40px;
+}
+
+.relaxGallery #r2:hover {
+    filter: brightness(70%);
+}
+
+.relaxGallery #r3 {
+    background-image: url(/img/relax3.webp);
+    background-position: -50px;
+}
+
+.relaxGallery #r3:hover {
+    filter: brightness(70%);
+}
+
+.relaxGallery #r4 {
+    background-image: url(/img/relax4.webp);
+    background-position: 0 -80px;
+}
+
+.relaxGallery #r4:hover {
+    filter: brightness(70%);
+}
+
+.relaxGallery #r5 {
+    background-image: url(/img/relax5.webp);
+    background-position: 0 -110px;
+}
+
+.relaxGallery #r5:hover {
+    filter: brightness(70%);
 }
 
 /* Menu 2 */
