@@ -1,0 +1,23 @@
+
+/* fonts */
+
+@font-face {
+    font-family: 'Mistral';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mistral'), url('MISTRAL.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'OMEGA CT Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OMEGA CT Regular'), url('OmegaCTRegular.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Mortega Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Mortega Regular'), url('Mortega.woff') format('woff');
+    }

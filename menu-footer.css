@@ -1,278 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}       
-
-/* Header */
-
-.header {
-    background-color: #800080;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.header img {
-    transform: scale(145%);
-}
-
-/* hero */
-
-.hero {
-    height: 635px;
-}
-
-.herothumb {
-    background-image: url(/img/main.webp);
-    background-size: cover;
-    background-position: 0%;
-    filter: brightness(60%);
-    height: 635px;
-}
-
-.title h2 {
-    color: white;
-    font-size: 4rem;
-    position: absolute;
-    top: 480px;
-    left: 50px;
-    font-family: 'OMEGA CT Regular';
-}
-
-.title h1 {
-    color: white;
-    font-size:7rem;
-    position: absolute;
-    top: 530px;
-    left: 50px;
-    font-family: 'Mistral';
-}
-
-.menu-button {
-    border: 5px solid white;
-    width: 300px;
-    height: 90px;
-    position: absolute;
-    top: 530px;
-    right: 50px;
-    text-align: center;
-}
-
-.menu-button a {
-    display: block;
-    line-height: 90px;
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'OMEGA CT Regular';
-}
-
-.menu-button:hover p {
-    color: black;
-}
-
-.menu-button:hover {
-    background-color: white;
-}
-
-/* quick access */
-.quick-container {
-    width: 100%;
-    height: 1000px;
-    background-color: #800080;
-    background-size: cover;
-    background-position: -50px -200px;
-}
-
-.wave {
-    position: absolute;
-    top: 1575px;
-}
-
-.qInfo {
-    font-family: 'OMEGA CT Regular';
-    display: block;
-    position: absolute;
-    color: white;
-    text-align: center;
-    line-height: 80px;
-    font-size: 1.4rem;
-    background-color: #800080;
-    height: 80px;
-    width: 100%;
-}
-
-/* MENU 1 */
-
-.qRelax {
-    text-decoration: none;
-    display: block;
-    transform: scale(60%);
-    position: absolute;
-    left: -150px;
-    width: 1000px;
-}
-
-.qRelax:hover .mThumb1 {
-    filter: brightness(70%);
-}
-
-.quickHead1 {
-    height: 100px;
-    width: 100%;
-    background-color: #560056;
-    display: flex;
-}
-
-.quickmenu1 img {
-    transform: scale(50%);
-}
-
-.quickmenu1 h1 {
-    color: white;
-    line-height: 100px;
-    font-size: 2.5rem;
-    font-family: 'OMEGA CT Regular';
-}
-
-.mThumb1 {
-    background-image: url(/img/menuThumb\(relax\).webp);
-    background-position: 0px -100px;
-    background-size: cover;
-    height: 450px;
-    width: 100%;
-    border-radius: 0 0 20px 20px ;
-}
-
-/* MENU 2 */
-
-.qRejuve {
-    text-decoration: none;
-    display: block;
-    transform: scale(60%);
-    position: absolute;
-    width: 1000px;
-    top: 900px;
-    right: -170px;
-}
-
-.qRejuve:hover .mThumb2 {
-    filter: brightness(70%);
-}
-
-.quickHead2 {
-    height: 100px;
-    width: 100%;
-    background-color: #560056;
-    display: flex;
-}
-
-.quickmenu2 img {
-    transform: scale(50%);
-}
-
-.quickmenu2 h1 {
-    color: white;
-    line-height: 100px;
-    font-size: 2.5rem;
-    font-family: 'OMEGA CT Regular';
-}
-
-.mThumb2 {
-    background-image: url(/img/menuThumb\(rejuvenate\).webp);
-    background-position: 0px -210px;
-    background-size: cover;
-    height: 450px;
-    width: 100%;
-    border-radius: 0 0 20px 20px ;
-}
-
-/* MENU 3 */
-.qPamper {
-    text-decoration: none;
-    display: block;
-    transform: scale(60%);
-    position: absolute;
-    height: 300px;
-    width: 1000px;
-    top: 1180px;
-    left: -150px;
-}
-
-.qPamper:hover .mThumb3 {
-    filter: brightness(70%);
-}
-
-.quickHead3 {
-    height: 100px;
-    width: 100%;
-    background-color: #560056;
-    display: flex;
-}
-
-.quickmenu3 img {
-    transform: scale(50%);
-}
-
-.quickmenu3 h1 {
-    color: white;
-    line-height: 100px;
-    font-size: 2.5rem;
-    font-family: 'OMEGA CT Regular';
-}
-
-.mThumb3 {
-    background-image: url(/img/menuThumb\(pampering\).webp);
-    background-position: 0px -200px;
-    background-size: cover;
-    height: 450px;
-    width: 100%;
-    border-radius: 0 0 20px 20px ;
-}
-
 /* menu */
 /* head */
 .menu-head {
@@ -305,13 +30,13 @@ table {
 /* menu 1 */
 
 .menuRelax {
-    height: 1670px;
+    height: 1750px;
     width: 100%;
     margin: auto;
 }
 
 .menuRelax .containRelax{
-    height:1000px;
+    height:1150px;
     width: 80%;
     margin: auto;
 }
@@ -331,6 +56,13 @@ table {
 .containRelax h2 {
     font-size: 2rem;
     font-family: 'Mortega Regular';
+}
+
+.containRelax h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'OMEGA CT Regular';
+    margin-bottom: 10px;
 }
 
 .containRelax p {
@@ -405,14 +137,14 @@ table {
 /* Menu 2 */
 
 .menuReju {
-    height: 1300px;
+    height: 1370px;
     width: 100%;
     margin: auto;
     background-color: rgb(233, 233, 233);
 }
 
 .menuReju .containReju{
-    height:580px;
+    height:650px;
     width: 80%;
     margin: auto;
     padding-top: 100px;
@@ -433,6 +165,13 @@ table {
 .containReju h2 {
     font-size: 2rem;
     font-family: 'Mortega Regular';
+}
+
+.containReju h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'OMEGA CT Regular';
+    margin-bottom: 10px;
 }
 
 .containReju p {
@@ -474,7 +213,7 @@ table {
 }
 
 .rejuxGallery #rj2:hover {
-    filter: brightness(70%);
+    filter: brightness(100%);
 }
 
 .rejuGallery #rj3 {
@@ -507,13 +246,13 @@ table {
 /* menu 3 */
 
 .menuPam {
-    height: 1200px;
+    height: 1250px;
     width: 100%;
     margin: auto;
 }
 
 .menuPam .containPam{
-    height: 500px;
+    height: 550px;
     width: 80%;
     margin: auto;
     padding-top: 100px;
@@ -534,6 +273,13 @@ table {
 .containPam h2 {
     font-size: 2rem;
     font-family: 'Mortega Regular';
+}
+
+.containPam h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'OMEGA CT Regular';
+    margin-bottom: 10px;
 }
 
 .containPam p {
@@ -624,26 +370,3 @@ table {
 .footer p {
     font-family: 'OMEGA CT Regular';
 }
-
-/* fonts */
-
-@font-face {
-    font-family: 'Mistral';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Mistral'), url('MISTRAL.woff') format('woff');
-    }
-
-@font-face {
-    font-family: 'OMEGA CT Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('OMEGA CT Regular'), url('OmegaCTRegular.woff') format('woff');
-    }
-
-@font-face {
-    font-family: 'Mortega Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Mortega Regular'), url('Mortega.woff') format('woff');
-    }
