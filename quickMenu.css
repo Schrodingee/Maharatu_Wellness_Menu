@@ -1,0 +1,156 @@
+
+
+/* quick access */
+.quick-container {
+    width: 100%;
+    height: 1000px;
+    background-color: #800080;
+    background-size: cover;
+    background-position: -50px -200px;
+}
+
+.wave {
+    position: absolute;
+    top: 1575px;
+}
+
+.qInfo {
+    font-family: 'OMEGA CT Regular';
+    display: block;
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 1.4rem;
+    background-color: #800080;
+    height: 80px;
+    width: 100%;
+}
+
+/* MENU 1 */
+
+.qRelax {
+    text-decoration: none;
+    display: block;
+    transform: scale(60%);
+    position: absolute;
+    left: -150px;
+    width: 1000px;
+}
+
+.qRelax:hover .mThumb1 {
+    filter: brightness(70%);
+}
+
+.quickHead1 {
+    height: 100px;
+    width: 100%;
+    background-color: #560056;
+    display: flex;
+}
+
+.quickmenu1 img {
+    transform: scale(50%);
+}
+
+.quickmenu1 h1 {
+    color: white;
+    line-height: 100px;
+    font-size: 2.5rem;
+    font-family: 'OMEGA CT Regular';
+}
+
+.mThumb1 {
+    background-image: url(/img/menuThumb\(relax\).webp);
+    background-position: 0px -100px;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    border-radius: 0 0 20px 20px ;
+}
+
+/* MENU 2 */
+
+.qRejuve {
+    text-decoration: none;
+    display: block;
+    transform: scale(60%);
+    position: absolute;
+    width: 1000px;
+    top: 900px;
+    right: -170px;
+}
+
+.qRejuve:hover .mThumb2 {
+    filter: brightness(70%);
+}
+
+.quickHead2 {
+    height: 100px;
+    width: 100%;
+    background-color: #560056;
+    display: flex;
+}
+
+.quickmenu2 img {
+    transform: scale(50%);
+}
+
+.quickmenu2 h1 {
+    color: white;
+    line-height: 100px;
+    font-size: 2.5rem;
+    font-family: 'OMEGA CT Regular';
+}
+
+.mThumb2 {
+    background-image: url(/img/menuThumb\(rejuvenate\).webp);
+    background-position: 0px -210px;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    border-radius: 0 0 20px 20px ;
+}
+
+/* MENU 3 */
+.qPamper {
+    text-decoration: none;
+    display: block;
+    transform: scale(60%);
+    position: absolute;
+    height: 300px;
+    width: 1000px;
+    top: 1180px;
+    left: -150px;
+}
+
+.qPamper:hover .mThumb3 {
+    filter: brightness(70%);
+}
+
+.quickHead3 {
+    height: 100px;
+    width: 100%;
+    background-color: #560056;
+    display: flex;
+}
+
+.quickmenu3 img {
+    transform: scale(50%);
+}
+
+.quickmenu3 h1 {
+    color: white;
+    line-height: 100px;
+    font-size: 2.5rem;
+    font-family: 'OMEGA CT Regular';
+}
+
+.mThumb3 {
+    background-image: url(/img/menuThumb\(pampering\).webp);
+    background-position: 0px -200px;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    border-radius: 0 0 20px 20px ;
+}
