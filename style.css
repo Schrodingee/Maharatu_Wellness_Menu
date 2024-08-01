@@ -305,13 +305,13 @@ table {
 /* menu 1 */
 
 .menuRelax {
-    height: 1670px;
+    height: 1750px;
     width: 100%;
     margin: auto;
 }
 
 .menuRelax .containRelax{
-    height:1000px;
+    height:1150px;
     width: 80%;
     margin: auto;
 }
@@ -331,6 +331,13 @@ table {
 .containRelax h2 {
     font-size: 2rem;
     font-family: 'Mortega Regular';
+}
+
+.containRelax h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'OMEGA CT Regular';
+    margin-bottom: 10px;
 }
 
 .containRelax p {
@@ -405,14 +412,14 @@ table {
 /* Menu 2 */
 
 .menuReju {
-    height: 1300px;
+    height: 1370px;
     width: 100%;
     margin: auto;
     background-color: rgb(233, 233, 233);
 }
 
 .menuReju .containReju{
-    height:580px;
+    height:650px;
     width: 80%;
     margin: auto;
     padding-top: 100px;
@@ -433,6 +440,13 @@ table {
 .containReju h2 {
     font-size: 2rem;
     font-family: 'Mortega Regular';
+}
+
+.containReju h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'OMEGA CT Regular';
+    margin-bottom: 10px;
 }
 
 .containReju p {
@@ -474,7 +488,7 @@ table {
 }
 
 .rejuxGallery #rj2:hover {
-    filter: brightness(70%);
+    filter: brightness(100%);
 }
 
 .rejuGallery #rj3 {
@@ -507,13 +521,13 @@ table {
 /* menu 3 */
 
 .menuPam {
-    height: 1200px;
+    height: 1250px;
     width: 100%;
     margin: auto;
 }
 
 .menuPam .containPam{
-    height: 500px;
+    height: 550px;
     width: 80%;
     margin: auto;
     padding-top: 100px;
@@ -534,6 +548,13 @@ table {
 .containPam h2 {
     font-size: 2rem;
     font-family: 'Mortega Regular';
+}
+
+.containPam h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'OMEGA CT Regular';
+    margin-bottom: 10px;
 }
 
 .containPam p {
