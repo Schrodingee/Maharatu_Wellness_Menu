@@ -1,0 +1,62 @@
+.header {
+    background-color: #800080;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    transform: scale(145%);
+}
+
+.container {
+    background-color: #800080;
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+}
+/* toggle if there is no promo  (.promo1{display: none;} & .warning{displa: block;})*/
+/* toggle if there is a promo and link the promo img and add the desc in the promo.html (.promo1{display: block;} & .warning{display: none;})*/
+.container .warning {display: block;} .container .promo1{display: none;}
+
+.container .warning {
+    color: white;
+    font-family: 'OMEGA CT Regular';
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    width: 60%;
+}
+
+.container .promo1 {
+    width: 300px;
+    height: 450px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.container .promo1 .promo-thumb1 {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
+.container .promo1 .promo-thumb1:hover {
+    filter: brightness(40%);
+}
+
+
+.container .promo1 .promo-desc1 {
+    color: white;
+    margin-top: 10px;
+    font-family: 'OMEGA CT Regular';
+}
+
+.container:hover {
+    color: rgb(169, 169, 169);
+}
