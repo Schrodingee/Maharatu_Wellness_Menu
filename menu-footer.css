@@ -391,18 +391,18 @@
 /* head */
 @media only screen and (max-width: 530px) {
     .menu-head h1{
-        left: 120px;
-        top: 1930px;
+        left: 100px;
+        top: 1850px;
         font-size: 4rem;
     }
     .menu-head h2 {
-        left: 150px;
-        top: 1980px;
+        left: 130px;
+        top: 1900px;
         font-size: 2rem;
     }
     .menu-head img {
         left: -780px;
-        top: 840px;
+        top: 760px;
         transform: scale(10%);
     }
     .wave {
