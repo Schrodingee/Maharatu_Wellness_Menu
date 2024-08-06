@@ -61,7 +61,7 @@
 }
 
 .mThumb1 {
-    background-image: url(/img/menuThumb\(relax\).webp);
+    background-image: url(img/menuThumb\(relax\).webp);
     background-position: 0px -100px;
     background-size: cover;
     height: 450px;
@@ -104,7 +104,7 @@
 }
 
 .mThumb2 {
-    background-image: url(/img/menuThumb\(rejuvenate\).webp);
+    background-image: url(img/menuThumb\(rejuvenate\).webp);
     background-position: 0px -210px;
     background-size: cover;
     height: 450px;
@@ -147,7 +147,7 @@
 }
 
 .mThumb3 {
-    background-image: url(/img/menuThumb\(pampering\).webp);
+    background-image: url(img/menuThumb\(pampering\).webp);
     background-position: 0px -200px;
     background-size: cover;
     height: 450px;

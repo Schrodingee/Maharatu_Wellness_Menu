@@ -90,7 +90,7 @@
 }
 
 .relaxGallery #r1 {
-    background-image: url(/img/relax1.webp);
+    background-image: url(img/relax1.webp);
     background-position: -150px;
 }
 
@@ -99,7 +99,7 @@
 }
 
 .relaxGallery #r2 {
-    background-image: url(/img/relax2.webp);
+    background-image: url(img/relax2.webp);
     background-position: -40px;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .relaxGallery #r3 {
-    background-image: url(/img/relax3.webp);
+    background-image: url(img/relax3.webp);
     background-position: -50px;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .relaxGallery #r4 {
-    background-image: url(/img/relax4.webp);
+    background-image: url(img/relax4.webp);
     background-position: 0 -80px;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .relaxGallery #r5 {
-    background-image: url(/img/relax5.webp);
+    background-image: url(img/relax5.webp);
     background-position: 0 -110px;
 }
 
@@ -199,7 +199,7 @@
 }
 
 .rejuGallery #rj1 {
-    background-image: url(/img/reju1.webp);
+    background-image: url(img/reju1.webp);
     background-position: -20px;
 }
 
@@ -208,7 +208,7 @@
 }
 
 .rejuGallery #rj2 {
-    background-image: url(/img/reju2.webp);
+    background-image: url(img/reju2.webp);
     background-position: -40px;
 }
 
@@ -217,7 +217,7 @@
 }
 
 .rejuGallery #rj3 {
-    background-image: url(/img/reju3.webp);
+    background-image: url(img/reju3.webp);
     background-position: -50px;
 }
 
@@ -226,7 +226,7 @@
 }
 
 .rejuGallery #rj4 {
-    background-image: url(/img/reju4.webp);
+    background-image: url(img/reju4.webp);
     background-position: 0 -100px;
 }
 
@@ -235,7 +235,7 @@
 }
 
 .rejuGallery #rj5 {
-    background-image: url(/img/reju5.webp);
+    background-image: url(img/reju5.webp);
     background-position: -40px;
 }
 
@@ -307,7 +307,7 @@
 }
 
 .PamGallery #pamper1 {
-    background-image: url(/img/pamper1.webp);
+    background-image: url(img/pamper1.webp);
     background-position: -20px;
 }
 
@@ -316,7 +316,7 @@
 }
 
 .PamGallery #pamper2 {
-    background-image: url(/img/pamper2.webp);
+    background-image: url(img/pamper2.webp);
     background-position: -40px;
 }
 
@@ -325,7 +325,7 @@
 }
 
 .PamGallery #pamper3 {
-    background-image: url(/img/pamper3.webp);
+    background-image: url(img/pamper3.webp);
     background-position: -50px;
 }
 
@@ -334,7 +334,7 @@
 }
 
 .PamGallery #pamper4 {
-    background-image: url(/img/pamper4.webp);
+    background-image: url(img/pamper4.webp);
     background-position: -50px 0px;
 }
 
@@ -343,7 +343,7 @@
 }
 
 .PamGallery #pamper5 {
-    background-image: url(/img/pamper5.webp);
+    background-image: url(img/pamper5.webp);
     background-position: -40px;
 }
 
@@ -490,7 +490,7 @@
     }
     
     .rejuGallery #rj1 {
-        background-image: url(/img/reju1.webp);
+
         background-position: -20px;
     }
     
@@ -499,7 +499,6 @@
     }
     
     .rejuGallery #rj2 {
-        background-image: url(/img/reju2.webp);
         background-position: 0;
     }
     
@@ -508,7 +507,6 @@
     }
     
     .rejuGallery #rj3 {
-        background-image: url(/img/reju3.webp);
         background-position: -50px;
     }
     
@@ -517,7 +515,6 @@
     }
     
     .rejuGallery #rj4 {
-        background-image: url(/img/reju4.webp);
         background-position: 0 -100px;
     }
     
@@ -526,7 +523,6 @@
     }
     
     .rejuGallery #rj5 {
-        background-image: url(/img/reju5.webp);
         background-position: -180px;
     }
     
@@ -569,7 +565,6 @@
     }
     
     .PamGallery #pamper1 {
-        background-image: url(/img/pamper1.webp);
         background-position: -50px;
     }
     
@@ -578,7 +573,6 @@
     }
     
     .PamGallery #pamper2 {
-        background-image: url(/img/pamper2.webp);
         background-position: -80px;
     }
     
@@ -587,7 +581,6 @@
     }
     
     .PamGallery #pamper3 {
-        background-image: url(/img/pamper3.webp);
         background-position: -80px;
     }
     
@@ -596,7 +589,6 @@
     }
     
     .PamGallery #pamper4 {
-        background-image: url(/img/pamper4.webp);
         background-position: -150px 0px;
     }
     
