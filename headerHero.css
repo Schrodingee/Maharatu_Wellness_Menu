@@ -18,7 +18,7 @@
 }
 
 .herothumb {
-    background-image: url(/img/main.webp);
+    background-image: url(img/main.webp);
     background-size: cover;
     background-position: 0%;
     filter: brightness(60%);
