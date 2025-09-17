@@ -19,7 +19,7 @@
 }
 /* toggle if there is no promo  (.promo1{display: none;} & .warning{displa: block;})*/
 /* toggle if there is a promo and link the promo img and add the desc in the promo.html (.promo1{display: block;} & .warning{display: none;})*/
-.container .warning {display: block;} .container .promo1{display: none;}
+.container .warning {display: none;} .container .promo1{display: block;}
 
 .container .warning {
     color: white;
